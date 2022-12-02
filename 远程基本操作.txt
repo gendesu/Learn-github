@@ -1,9 +1,22 @@
 配置远程仓库配置别名
 	git remote add 仓库名 别名（github地址）
 	git remote -v
+
+更改分支别名（github）
+	git branch -M main
+	 
+
 配置用户信息
-git config --global user.name ""
-git config --global user.email 
+	git config --global user.name ""
+	git config --global user.email 
 检查配置信息 git config --list
 
-远程克隆git clone 仓库地址 
+远程提交
+	git push -u 仓库名 分支名
+
+远程克隆
+	git clone 仓库地址 
+
+仓库权限人更新
+	git fetch 项目名
+	git merge 项目名/分支名 命令用于将两个或两个以上的开发历史加入(合并)一起。
