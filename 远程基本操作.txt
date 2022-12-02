@@ -1,5 +1,5 @@
 配置远程仓库配置别名
-	git remote add 仓库名 别名（github地址）
+	git remote add 本地项目名 别名（github地址）
 	git remote -v
 
 更改分支别名（github）
@@ -7,16 +7,16 @@
 	 
 
 配置用户信息
-	git config --global user.name ""
-	git config --global user.email 
+	git config --global user.name "xxx"
+	git config --global user.email  xxx.com
 检查配置信息 git config --list
 
 远程提交
-	git push -u 仓库名 分支名
+	git push -u 本地项目名 分支名
 
 远程克隆
-	git clone 仓库地址 
+	git clone github仓库地址 
 
 仓库权限人更新
-	git fetch 项目名
-	git merge 项目名/分支名 命令用于将两个或两个以上的开发历史加入(合并)一起。
+	git fetch 本地项目名  告诉 Git 去获取它有你没有的数据。
+	git merge 本地项目名/分支名 命令用于将两个或两个以上的开发历史加入(合并)一起。
