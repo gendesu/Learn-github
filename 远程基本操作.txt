@@ -1,0 +1,7 @@
+配置远程仓库配置别名
+	git remote add 仓库名 别名（github地址）
+	git remote -v
+配置用户信息
+git config --global user.name ""
+git config --global user.email 
+检查配置信息 git config --list
