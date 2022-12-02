@@ -5,3 +5,5 @@
 git config --global user.name ""
 git config --global user.email 
 检查配置信息 git config --list
+
+远程克隆git clone 仓库地址 
